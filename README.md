@@ -4,6 +4,7 @@ Determines factors of safety for fasteners subjected to tensile loading, allows 
 ### Capability Overview
 This calculator considers a single fastener fastening two members where the joint is loaded solely in tension.
 ![Fastener loaded in tension](https://blog.maxprocorp.com/hs-fs/hubfs/Tension-Load.jpg?width=235&name=Tension-Load.jpg)
+
 This calculator is capable of determining factors of safety for varying initial preloads applied to the fastener:
 ![Preload Diagram](https://github.com/slehmann1/Fastenating/blob/main/SupportingInfo/Images/PreloadDiagram.png?raw=true)
 It can also determine factors of safety for the percentage of the fastener proof load that is used to define the initial preload.
@@ -18,3 +19,4 @@ Written in python with the following dependencies:  Numpy, Pandas, and MatPlotLi
 
 #### Limitations
 Whilst this tool can be useful for specification of fasteners, all of the assumptions made within it should be understood. An understanding of fastener theory should be grasped before attempting to use this tool; there are multiple factors that can influence fastener failure outside of the parameters this calculator considers. Some of many examples of these factors include temperature, corrosion, or shear, and moment loading. In particular the assumptions made to determine the joint constant and fastener stiffness should be well understood; these assumptions are applicable to select cases and will not perform well in other cases where for example there is a gasket present in the joint. Overall, it would generally be considered poor engineering practice to design bridges based on online and unverified tools.
+
