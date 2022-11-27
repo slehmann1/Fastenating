@@ -3,7 +3,11 @@ Determines factors of safety for fasteners subjected to tensile loading, allows 
 
 ### Capability Overview
 This calculator considers a single fastener fastening two members where the joint is loaded solely in tension.
-![Fastener loaded in tension](https://blog.maxprocorp.com/hs-fs/hubfs/Tension-Load.jpg?width=235&name=Tension-Load.jpg)
+
+
+<p align="center">
+  <img src="https://blog.maxprocorp.com/hs-fs/hubfs/Tension-Load.jpg?width=235&name=Tension-Load.jpg" />
+</p>
 
 This calculator is capable of determining factors of safety for varying initial preloads applied to the fastener:
 ![Preload Diagram](https://github.com/slehmann1/Fastenating/blob/main/SupportingInfo/Images/PreloadDiagram.png?raw=true)
